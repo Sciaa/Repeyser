@@ -446,7 +446,7 @@ class Refacer:
              filename = f"{original_name}_{timestamp}.jpg"
              output_path = os.path.join("output", filename)
              pil_img.save(output_path, format='JPEG', quality=100, subsampling=0)
-             output_path = enhance_image(output_path)
+             #output_path = enhance_image(output_path)
              print(f"Saved refaced image to {output_path}")
              return output_path
 
