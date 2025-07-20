@@ -22,7 +22,7 @@ import subprocess
 from PIL import Image
 import numpy as np
 import time
-from codeformer_wrapper import enhance_image, enhance_image_memory
+#from codeformer_wrapper import enhance_image, enhance_image_memory
 import tempfile
 
 gc = __import__('gc')
